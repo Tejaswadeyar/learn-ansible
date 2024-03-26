@@ -10,6 +10,6 @@
   task:
    - name: say bye
      ansible.builtin.debug:
-      msg: Bye
+      msg: Bye!
 
 
