@@ -1,13 +1,13 @@
 - name: just to say hello
   hosts: all
-  task:
+  tasks:
     - name: say hello
       ansible.builtin.debug:
-      msg: Hello
+       msg: Hello
 
 - name: just to say bye
   hosts: all
-  task:
+  tasks:
    - name: say bye
      ansible.builtin.debug:
       msg: Bye!
