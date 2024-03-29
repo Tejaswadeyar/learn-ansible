@@ -2,7 +2,7 @@
   hosts: localhost
   # If we declare variable here (play level) then all the tasks can access this variable
   vars:
-    URL: play.google.com
+    URL: role.google.com
   tasks:
     - name: print play level variable
       ansible.builtin.debug:
