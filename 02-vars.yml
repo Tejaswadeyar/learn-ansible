@@ -1,5 +1,5 @@
 - name: Demo on Vars
-  host: localhost
+  hosts: localhost
   # If we declare variable here (play level) then all the tasks can access this variable
   vars:
     URL: play.google.com
