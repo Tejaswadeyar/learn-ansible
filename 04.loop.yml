@@ -8,3 +8,11 @@
         - Ram
         - john
         - steve
+
+    - name: Loop Demo on maps
+      ansible.builtin.debug:
+        msg: Hello , {{ item }}
+      loop:
+        - { name: "Ram", age: 20 }
+        - { name: "john", age: 30 }
+        - { name: "steve", age: 40 }
