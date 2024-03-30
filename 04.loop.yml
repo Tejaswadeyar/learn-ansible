@@ -11,7 +11,7 @@
 
     - name: Loop Demo on maps
       ansible.builtin.debug:
-        msg: Hello , {{ item }}
+        msg: Hello , {{ item.name }}, Age of yours is {{ item.age }} years.
       loop:
         - { name: "Ram", age: 20 }
         - { name: "john", age: 30 }
