@@ -12,3 +12,4 @@
     - name: Url split
       ansible.builtin.debug:
         msg: "{{ URL | split('/') last }}"
+
