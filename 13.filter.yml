@@ -1,0 +1,8 @@
+- name: Filter
+  hosts: localhost
+  task:
+    - name: Filter
+      ansible.builtin.unarchive:
+        src: "https://nginx.org/download/nginx-1.25.3.zip"
+        dest: /tmp
+        remote_src: yes
