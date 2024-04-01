@@ -1,6 +1,6 @@
 - name: Register
   hosts: localhost
-  task:
+  tasks:
     - name: shell
       ansible.builtin.shell: uptime
       register: out
