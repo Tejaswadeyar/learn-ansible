@@ -1,6 +1,6 @@
 - name: Filter
   hosts: localhost
-  task:
+  tasks:
     - name: Filter
       ansible.builtin.unarchive:
         src: "https://nginx.org/download/nginx-1.25.3.zip"
