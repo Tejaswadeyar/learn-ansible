@@ -1,0 +1,4 @@
+- name: print
+  ansible.builtin.debug:
+    msg: hello from centos role
+
