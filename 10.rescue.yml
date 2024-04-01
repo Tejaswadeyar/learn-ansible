@@ -5,7 +5,7 @@
       block:
         - name: Run shell command
           ansible.builtin.shell: exit 1
-      rescue:
+
         - name: Say Hai
           ansible.builtin.debug:
             msg: Hai
